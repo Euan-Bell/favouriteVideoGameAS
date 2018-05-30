@@ -2,18 +2,18 @@ package com.example.euan.videogames;
 
 public class VideoGame {
 
-    private int ranking;
+    private Integer ranking;
     private String title;
     private String company;
 
-    public VideoGame(int ranking, String title, String company){
+    public VideoGame(Integer ranking, String title, String company){
 
         this.ranking = ranking;
         this.title = title;
         this.company = company;
     }
 
-    public int getRanking(){
+    public Integer getRanking(){
         return this.ranking;
     }
 
